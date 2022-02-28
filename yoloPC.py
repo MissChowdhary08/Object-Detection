@@ -79,7 +79,7 @@ cv2.imshow("Output", img)
 cv2.waitKey(0)
 
  # save output image to disk
-cv2.imwrite("object-detection.jpg", img)
+cv2.imwrite("object detection dog.jpg", img)
 
 # release resources
 cv2.destroyAllWindows()
