@@ -77,4 +77,9 @@ for i in range(len(boxes)):
 
 cv2.imshow("Output", img)
 cv2.waitKey(0)
+
+ # save output image to disk
+cv2.imwrite("object-detection.jpg", img)
+
+# release resources
 cv2.destroyAllWindows()
